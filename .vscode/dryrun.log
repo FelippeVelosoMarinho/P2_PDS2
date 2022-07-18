@@ -1,0 +1,12 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/felip/Downloads/Prova2'
+ 
+Arquivo n�o encontrado  - *.cpp
+
+Arquivo n�o encontrado  - *.cpp
+
+mkdir -p bin
+g++ -g --coverage -Wall -O3 -std=c++20 -I include/ -I third_party/ program/main.cpp  -o bin/main
+ 
+make: Leaving directory 'c:/Users/felip/Downloads/Prova2'
+ 
